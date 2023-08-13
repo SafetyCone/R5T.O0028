@@ -14,11 +14,13 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.F0142\source\R5T.F0142\R5T.F0142.csproj" />
+    <ProjectReference Include="..\..\..\R5T.O0016\source\R5T.O0016\R5T.O0016.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0131\source\R5T.T0131\R5T.T0131.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0184\source\R5T.T0184\R5T.T0184.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0222\source\R5T.T0222\R5T.T0222.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0159\source\R5T.T0159\R5T.T0159.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0198\source\R5T.T0198\R5T.T0198.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0200\source\R5T.T0200\R5T.T0200.csproj" />
+    <ProjectReference Include="..\..\..\R5T.F0143\source\R5T.F0143.F001\R5T.F0143.F001.csproj" />
   </ItemGroup>
 </Project>
