@@ -67,7 +67,7 @@ namespace R5T.O0028
             {
                 repositoryCreationResult.GitHubRepositoryUrl = $@"https://github.com/{gitHubRepositoryContext.OwnerName}/{gitHubRepositoryContext.RepositoryName}".ToGitHubRepositoryUrl();
                 repositoryCreationResult.LocalGitRepositoryDirectoryPath = localGitRepositoryDirectoryPath
-                    .Change(Instances.PathOperator.EnsureIsDirectoryIndicated)
+                    .Change(Instances.PathOperator.Ensure_IsDirectoryIndicated)
                     .ToLocalGitRepositoryDirectoryPath();
             };
         }
